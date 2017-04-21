@@ -3,7 +3,7 @@
 //  Samocut
 //
 //  Created by Orangesoft Developer on 14.04.17.
-//  Copyright © 2017 Orangesoft Developer. All rights reserved.
+//  Copyright © 2017 Orangesoft. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

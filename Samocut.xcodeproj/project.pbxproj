@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B007AAE1EA0C84900ABE3A3 /* Samocut.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B007AAC1EA0C84900ABE3A3 /* Samocut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B007AB81EA0C86500ABE3A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B007AB61EA0C86500ABE3A3 /* Info.plist */; };
+		3B007AB91EA0C86500ABE3A3 /* Samocut.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B007AB71EA0C86500ABE3A3 /* Samocut.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B007ABC1EA0C88D00ABE3A3 /* Samocut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B007ABB1EA0C88D00ABE3A3 /* Samocut.swift */; };
+		3B007B1D1EA0D31500ABE3A3 /* Samocut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B007AA91EA0C84900ABE3A3 /* Samocut.framework */; };
+		3B007B2A1EA0E06E00ABE3A3 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B007B291EA0E06E00ABE3A3 /* BaseTestCase.swift */; };
+		3B007B2D1EA0E17900ABE3A3 /* VideoIdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B007B2C1EA0E17900ABE3A3 /* VideoIdsTests.swift */; };
+		3B007B301EA0E19200ABE3A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B007B2F1EA0E19200ABE3A3 /* Info.plist */; };
+		3B007B361EA0E90700ABE3A3 /* ParseQueryTets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B007B351EA0E90700ABE3A3 /* ParseQueryTets.swift */; };
+		3B007B401EA0EEB900ABE3A3 /* url_query.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B007B3F1EA0EEB900ABE3A3 /* url_query.txt */; };
+		3B007B451EA0F99400ABE3A3 /* ParseVideoQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B007B441EA0F99400ABE3A3 /* ParseVideoQualityTests.swift */; };
+		3B007B471EA0FAC700ABE3A3 /* video_information.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B007B461EA0FAC700ABE3A3 /* video_information.txt */; };
+		3B59C45B1EA49C3200846E8A /* VideoRequestResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59C45A1EA49C3200846E8A /* VideoRequestResponseTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B007B1E1EA0D31500ABE3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B007AA01EA0C84900ABE3A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B007AA81EA0C84900ABE3A3;
+			remoteInfo = Samocut;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B007AA91EA0C84900ABE3A3 /* Samocut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Samocut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B007AAC1EA0C84900ABE3A3 /* Samocut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Samocut.h; sourceTree = "<group>"; };
-		3B007AAD1EA0C84900ABE3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B007AB61EA0C86500ABE3A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B007AB71EA0C86500ABE3A3 /* Samocut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Samocut.h; sourceTree = "<group>"; };
+		3B007ABB1EA0C88D00ABE3A3 /* Samocut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Samocut.swift; sourceTree = "<group>"; };
+		3B007B181EA0D31500ABE3A3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B007B291EA0E06E00ABE3A3 /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		3B007B2C1EA0E17900ABE3A3 /* VideoIdsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoIdsTests.swift; sourceTree = "<group>"; };
+		3B007B2F1EA0E19200ABE3A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B007B351EA0E90700ABE3A3 /* ParseQueryTets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseQueryTets.swift; sourceTree = "<group>"; };
+		3B007B3F1EA0EEB900ABE3A3 /* url_query.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = url_query.txt; sourceTree = "<group>"; };
+		3B007B441EA0F99400ABE3A3 /* ParseVideoQualityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseVideoQualityTests.swift; sourceTree = "<group>"; };
+		3B007B461EA0FAC700ABE3A3 /* video_information.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video_information.txt; sourceTree = "<group>"; };
+		3B59C45A1EA49C3200846E8A /* VideoRequestResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRequestResponseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,13 +55,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B007B151EA0D31500ABE3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B007B1D1EA0D31500ABE3A3 /* Samocut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3B007A9F1EA0C84900ABE3A3 = {
 			isa = PBXGroup;
 			children = (
-				3B007AAB1EA0C84900ABE3A3 /* Samocut */,
+				3B007AB41EA0C86500ABE3A3 /* Source */,
+				3B007B191EA0D31500ABE3A3 /* Tests */,
 				3B007AAA1EA0C84900ABE3A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,17 +79,83 @@
 			isa = PBXGroup;
 			children = (
 				3B007AA91EA0C84900ABE3A3 /* Samocut.framework */,
+				3B007B181EA0D31500ABE3A3 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B007AAB1EA0C84900ABE3A3 /* Samocut */ = {
+		3B007AB41EA0C86500ABE3A3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3B007AAC1EA0C84900ABE3A3 /* Samocut.h */,
-				3B007AAD1EA0C84900ABE3A3 /* Info.plist */,
+				3B007ABA1EA0C87C00ABE3A3 /* Core */,
+				3B007AB51EA0C86500ABE3A3 /* Supporting Files */,
 			);
-			path = Samocut;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3B007AB51EA0C86500ABE3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B007AB61EA0C86500ABE3A3 /* Info.plist */,
+				3B007AB71EA0C86500ABE3A3 /* Samocut.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B007ABA1EA0C87C00ABE3A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3B007ABB1EA0C88D00ABE3A3 /* Samocut.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3B007B191EA0D31500ABE3A3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B007B291EA0E06E00ABE3A3 /* BaseTestCase.swift */,
+				3B007B2B1EA0E17900ABE3A3 /* Core */,
+				3B007B2E1EA0E19200ABE3A3 /* Supporting Files */,
+				3B007B3B1EA0EEA600ABE3A3 /* Resource */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3B007B2B1EA0E17900ABE3A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3B007B2C1EA0E17900ABE3A3 /* VideoIdsTests.swift */,
+				3B007B351EA0E90700ABE3A3 /* ParseQueryTets.swift */,
+				3B007B441EA0F99400ABE3A3 /* ParseVideoQualityTests.swift */,
+				3B59C45A1EA49C3200846E8A /* VideoRequestResponseTests.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3B007B2E1EA0E19200ABE3A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B007B2F1EA0E19200ABE3A3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B007B3B1EA0EEA600ABE3A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B007B3C1EA0EEA600ABE3A3 /* Strings */,
+			);
+			name = Resource;
+			path = Source/Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		3B007B3C1EA0EEA600ABE3A3 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				3B007B461EA0FAC700ABE3A3 /* video_information.txt */,
+				3B007B3F1EA0EEB900ABE3A3 /* url_query.txt */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B007AAE1EA0C84900ABE3A3 /* Samocut.h in Headers */,
+				3B007AB91EA0C86500ABE3A3 /* Samocut.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,16 +190,40 @@
 			productReference = 3B007AA91EA0C84900ABE3A3 /* Samocut.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3B007B171EA0D31500ABE3A3 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B007B201EA0D31500ABE3A3 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				3B007B141EA0D31500ABE3A3 /* Sources */,
+				3B007B151EA0D31500ABE3A3 /* Frameworks */,
+				3B007B161EA0D31500ABE3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B007B1F1EA0D31500ABE3A3 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 3B007B181EA0D31500ABE3A3 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3B007AA01EA0C84900ABE3A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Orangesoft Developer";
+				ORGANIZATIONNAME = Orangesof;
 				TargetAttributes = {
 					3B007AA81EA0C84900ABE3A3 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					3B007B171EA0D31500ABE3A3 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 7NPWA8WAQN;
 						ProvisioningStyle = Automatic;
@@ -113,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				3B007AA81EA0C84900ABE3A3 /* Samocut */,
+				3B007B171EA0D31500ABE3A3 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +253,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B007AB81EA0C86500ABE3A3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B007B161EA0D31500ABE3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B007B301EA0E19200ABE3A3 /* Info.plist in Resources */,
+				3B007B401EA0EEB900ABE3A3 /* url_query.txt in Resources */,
+				3B007B471EA0FAC700ABE3A3 /* video_information.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +274,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B007ABC1EA0C88D00ABE3A3 /* Samocut.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B007B141EA0D31500ABE3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B007B2D1EA0E17900ABE3A3 /* VideoIdsTests.swift in Sources */,
+				3B007B451EA0F99400ABE3A3 /* ParseVideoQualityTests.swift in Sources */,
+				3B007B2A1EA0E06E00ABE3A3 /* BaseTestCase.swift in Sources */,
+				3B007B361EA0E90700ABE3A3 /* ParseQueryTets.swift in Sources */,
+				3B59C45B1EA49C3200846E8A /* VideoRequestResponseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B007B1F1EA0D31500ABE3A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B007AA81EA0C84900ABE3A3 /* Samocut */;
+			targetProxy = 3B007B1E1EA0D31500ABE3A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3B007AAF1EA0C84900ABE3A3 /* Debug */ = {
@@ -242,18 +405,21 @@
 		3B007AB21EA0C84900ABE3A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7NPWA8WAQN;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Samocut/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.Samocut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,18 +427,44 @@
 		3B007AB31EA0C84900ABE3A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7NPWA8WAQN;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Samocut/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.Samocut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3B007B211EA0D31500ABE3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7NPWA8WAQN;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B007B221EA0D31500ABE3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7NPWA8WAQN;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.orangesoft.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -296,6 +488,16 @@
 				3B007AB31EA0C84900ABE3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B007B201EA0D31500ABE3A3 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B007B211EA0D31500ABE3A3 /* Debug */,
+				3B007B221EA0D31500ABE3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

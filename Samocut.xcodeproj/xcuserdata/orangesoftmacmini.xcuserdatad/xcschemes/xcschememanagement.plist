@@ -9,10 +9,50 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SamocutTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3B007AA81EA0C84900ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007AC01EA0C8EE00ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007AD71EA0D1AA00ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007AE61EA0D28100ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007AF91EA0D2FA00ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007B081EA0D30900ABE3A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B007B171EA0D31500ABE3A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
